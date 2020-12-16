@@ -31,3 +31,6 @@ gulp.task('default', ['build', 'browser-sync'], function(){
   gulp.watch("./*.html", ['bs-reload']);
   gulp.watch("./dist/*.+(js|css)", ['bs-reload']);
 });
+
+
+// ブランチ設定...browserSync.active
